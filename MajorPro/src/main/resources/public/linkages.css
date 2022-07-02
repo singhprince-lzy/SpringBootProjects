@@ -1,0 +1,121 @@
+/* Website Linkages */
+
+/* Claim Settlement Ratio */
+.csr-value:before{
+	content: "97.9%";
+}
+.csr-fy:before{
+	content: "FY 2020-21";
+}
+
+/* Product UINs */
+.ips-uin:before{
+	content: "105N151V06";
+}
+.hnc-uin:before{
+	content: "105N154V03";
+}
+.signature-uin:before{
+	content: "105L177V03";
+}
+.pru1wealth-uin:before{
+	content: "105L175V03";
+}
+.ltc-uin:before{
+	content: "105L155V04";
+}
+.smartlife-uin:before{
+	content: "105L145V06";
+}
+.smartkid-uin:before{
+	content: "105L145V05";
+}
+.gwp-uin:before{
+	content: "105L143V02";
+}
+.asip-uin:before{
+	content: "105N144V07";
+}
+.fp-uin:before{
+	content: "105N153V02";
+}
+.ca-uin:before{
+	content: "105N132V02";
+}
+.ss-uin:before{
+	content: "105N135V02";
+}
+.er-uin:before{
+	content: "105L133V03";
+}
+.ersp-uin:before{
+	content: "105L138V03";
+}
+.ia-uin:before{
+	content: "105N009V15";
+}
+.icare-uin:before{
+	content: "105N140V03";
+}
+.loan-protect-uin:before{
+	content: "105N150V03";
+}
+.life-raksha-uin:before{
+	content: "105N149V02";
+}
+
+/* SFIN */
+.maximiser-sfin:before{
+	content: "ULIF 114 15/03/11 LMaximis5 105";
+}
+.multicapGrowth-sfin:before{
+	content: "ULIF 085 24/11/09 LMCapGro 105";
+}
+.multicapBalanced-sfin:before{
+	content: "ULIF 088 24/11/09 LMCapBal 105";
+}
+.opportunities-sfin:before{
+	content: "ULIF 086 24/11/09 LOpport 105";
+}
+.bluechip-sfin:before{
+	content: "ULIF 087 24/11/09 LBluChip 105";
+}
+.income-sfin:before{
+	content: "ULIF 089 24/11/09 LIncome 105";
+}
+.moneyMarket-sfin:before{
+	content: "ULIF 090 24/11/09 LMoneyMkt 105";
+}
+.maximiseIndia-sfin:before{
+	content: "ULIF 136 11/20/14 MIF 105";
+}
+.aaa-sfin:before{
+	content: "ULIF 138 15/02/17 AAABF 105";
+}
+.valueEnhancer-sfin:before{
+	content: "ULIF 139 24/11/17 VEF 105";
+}
+.secureOpportunities:before{
+	content: "ULIF 140 24/11/17 SOF 105";
+}
+.focus50-sfin:before{
+	content: "ULIF 142 04/02/19 FocusFifty 105";
+}
+.indiaGrowth-sfin:before{
+	content: "ULIF 141 04/02/19 IndiaGrwth 105";
+}
+.lifeGrowth-sfin:before{
+	content: "ULIF 134 19/09/13 LGF 105";
+}
+.lifeSecure-sfin:before{
+	content: "ULIF 135 19/09/13 LSF 105";
+}
+.lifeGrowth-sfin:before{
+	content: "ULIF 134 19/09/13 LGF 105";
+}
+
+/*Contact details*/
+
+.contact-number:before{
+	content:"1860 266 7766";
+}

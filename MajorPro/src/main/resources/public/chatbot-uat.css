@@ -1,0 +1,123 @@
+
+.chatbot, .chatbot{font-size:10px;}
+.chatbot{color:#000;font-family:ZurichBT-Roman;font-size:1.8em;margin:0;padding:0;}
+.chatbot a:hover, .chatbot a:focus{outline:0;text-decoration:none;}
+#bot_circle, #botholder{z-index:999;-webkit-box-shadow:1px 1px 10px #999!important;-moz-box-shadow:1px 1px 10px #999!important;box-shadow:1px 1px 10px #999!important;}
+#bot_circle, #botholder{position:fixed;left:20px;display:none}
+#boat_msg{position:fixed;left:12px;display:block;bottom:100px;z-index:1029;font-size:16px;border-radius:10px;padding:15px 25px;line-height:20px;background:#ae2b30;-webkit-animation:1s zsiqcntanim;-moz-animation:1s zsiqcntanim;animation:bounceIn 2s ease-in-out 3s 2;-webkit-transform:scaleX(1);-moz-transform:scaleX(1);-o-transform:scaleX(1);-ms-transform:scaleX(1);transform:scaleX(1);color:#fff;font-family:'ZurichBT-Roman';}
+#boat_msg:after{display:inline-block;content:'';position:absolute;background-color:#b02a30;height:10px;width:10px;-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);-o-transform:rotate(45deg);-moz-transform:rotate(45deg);transform:rotate(45deg);top:68px;bottom:0;margin:auto;left:18px;border-radius:0 3px 0 0;}
+
+.orange-bg{background:rgb(251,111,1);}
+.orange-bg::before{border-top: 131px solid rgb(251,111,1);border-right: 13px solid transparent;content: "";position: absolute;right: -12px;	top: 0;z-index: 2;}	
+#botholder{bottom:15px;width:430px;border-radius:8px;box-shadow:1px 1px 10px #999!important;line-height:.6;z-index:1035;}
+#botiframe{border:none;width:100%;height:calc(100vh - 20px);max-height:900px}
+#bot_circle.open{background-image:url(/content/dam/icicipru/chatbot/chatbot-sprite.png)!important;background-position:12px -13px; -webkit-transition:background-image .3s ease-in-out;-moz-transition:background-image .3s ease-in-out;-o-transition:background-image .3s ease-in-out;transition:background-image .3s ease-in-out;width:57px;height:57px;-moz-border-radius:5%;-webkit-border-radius:5%;border-radius:5%;top:6px;left:calc(450px - 57px);border:0;background-size:42px;background-color:#97291e;box-shadow:0 0 0 #97291e!important;z-index:1036;border-top-right-radius:10px;}
+#bot_circle{width: 100px;height: 250px;background:url(/content/icici-prudential-life-insurance/chatbot/images/ligo-chat-updated-icon-desktop.svg) center no-repeat;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;box-shadow:0 0 0 #999!important;cursor:pointer;bottom:-32px;left:25px;z-index:1029;-webkit-transition:background-image .6s ease-in-out;-moz-transition:background-image .6s ease-in-out;-o-transition:background-image .6s ease-in-out;transition:background-image .6s ease-in-out;}
+
+.chatbot a{border:0;text-decoration:none;color:#ff5e05;font-weight:normal;font-family:ZurichBT-Bold;}
+.chatbot header{border-top-left-radius:8px;border-top-right-radius:8px;background:#b02a30;color:#fff;height:65px; width:430px; text-align:center;position:fixed;padding-top:7px; z-index:1;}
+.chatbot header.change{height:58px;-webkit-transition:max-height 1s;-moz-transition:max-height 1s;-ms-transition:max-height 1s;-o-transition:max-height 1s;transition:max-height 1s;}
+.chatbot header.change p img{float:left;margin-top:-10px;width:45px;height:auto;}
+.chatbot header.change h4{display:none}
+.chatbot header.change h5{font-size:22px;margin-top:-1px;text-align:left;margin-left:68px;}
+.chatbot header.change h5 span{font-size:14px;font-style:normal;}
+.chatbot .mt10{margin:10px;}
+.chatbot footer{position:relative;width:100%;border-radius:5px;padding:10px 5px;background:#f7f7f5;border-top-right-radius:0;border-top-left-radius:0;border-top:1px solid #f1f1f1;padding-top:20px;}
+.sendmsg{border:0;border-color:transparent;outline:0;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.0), 0 0 8px rgba(102,175,233,.0);-moz-box-shadow:inset 0 1px 1px rgba(0,0,0,.0), 0 0 8px rgba(102,175,233,.0);box-shadow:inset 0 1px 1px rgba(0,0,0,.0), 0 0 8px rgba(102,175,233,.0);background:#fff;padding:10px 55px 10px 15px;color:#000;font-size:1.6rem;width:calc(100% - 65px);margin-left:55px;height:auto;margin-right:10px;}
+.chatbot section{height:calc(100vh - 77px);overflow:auto;overflow-y:auto;position:relative;background:#f9f9f9;padding:0 10px; top:58px;}
+#menuoption, #submenuoption{position:absolute;width:100%;height:calc(100vh - 227px);background:#fff;display:none;z-index:99}
+.from-them > div, .loading > div{padding:15px 15px;background:#eaf2f7;border-radius:5px 8px 8px 5px;color:#263238;float:left;font-weight:400;margin-bottom:5px;text-align:left;margin-right:20px;line-height:1.5;-webkit-font-smoothing:antialiased;clear:both;}
+.from-them > div:before{width: 28px; content: "";    background: url(/content/dam/icicipru/chatbot/chatbot-sprite.png) no-repeat -126px -27px;    position: absolute;    left: -38px;    top: 8px;    height: 30px;    box-shadow: 0 2px 3px #ccc;    border-radius: 50%;    background-size: auto;}
+.loading > div:before{width:40px;content:"";background-image:url('/content/icici-prudential-life-insurance/chatbot/images/Chintamani_mic.png');position:absolute;left:-57px;top:0;height:40px;border-radius:50%;background-size:contain;-moz-box-shadow:0 0 1px #b02a30;-webkit-box-shadow:0 0 1px #b02a30;box-shadow:0 0 1px #b02a30;}
+.from-them p{clear:both;padding:0 40px}
+.from-them a{color:#97291e;text-decoration:underline;}
+.from-them a.btn{border:1px solid #635e5e;color:#635e5e;border-radius:5px;padding:7px 18px;margin-top:10px;display:inline-table;font-family:ZurichBT-Roman;text-decoration:none;margin-right:10px;min-width:50%;font-size:14px;background-color:#fff;text-transform:none;height:auto}
+.from-them a.btn-active{border:1px solid #97291e;color:#fff;background:#97291e;border-radius:5px;padding:7px 15px}
+.from-them a.btn:hover{border:1px solid #97291e;color:#fff;background:#97291e;border-radius:5px;padding:7px 15px}
+.from-them a.btn:active{border:1px solid #97291e;color:#fff;background:#97291e;border-radius:5px;padding:7px 15px}
+.from-them > div, .loading > div{padding:12px 12px;background:#fff;border-radius:5px 8px 8px 5px;color:#263238;float:left;font-weight:400;margin-bottom:5px;text-align:left;margin-right:20px;line-height:1.5;-webkit-font-smoothing:antialiased;clear:both;box-shadow:1px 2px 3px #ccc;}
+.from-them > div:before, .loading > div:before{width: 28px; content: "";    background: url(/content/dam/icicipru/chatbot/chatbot-sprite.png) no-repeat -126px -27px;    position: absolute;    left: -38px;    top: 8px;    height: 30px;    box-shadow: 0 2px 3px #ccc;    border-radius: 50%;    background-size: auto;}
+.from-me > div, .from-them > div, .loading > div{position:relative;font-size:1.4rem;margin:10px 40px 0 42px;-moz-osx-font-smoothing:grayscale;}
+/*.from-me > div:after{width:28px;content:"";background-image:url('/content/icici-prudential-life-insurance/chatbot/images/user.png');position:absolute;right:-38px;bottom:1px;height:28px;background-size:contain;}*/
+.from-me > div:after{content: "";width: 33px;    height: 30px;    background: url(/content/dam/icicipru/chatbot/chatbot-sprite.png) no-repeat -40px -570px;    background-size: auto; position: absolute;    bottom: 1px;    right: -40px;}
+.from-me > div{padding:12px;color:#0a0a0a;background:#c3c3c3;border-radius:8px 5px 5px 8px;border-bottom-right-radius:0;float:right;font-weight:400;margin-bottom:10px;text-align:right;margin-left:20px;line-height:1.4;min-width:20px;-webkit-font-smoothing:antialiased;clear:both;box-shadow:-1px 2px 0 #ccc;}
+#menu{position:absolute;left:5px;top:10px;width:49px;height:49px;background:url(/content/icici-prudential-life-insurance/chatbot/images/menu.png) no-repeat;}
+#menu.open{background:url(/content/icici-prudential-life-insurance/chatbot/images/menu_close.png) no-repeat}
+
+/*css need to be changed */
+
+ul.mainmenu{margin:10px 5px 5px}
+ul.mainmenu li{display:inline-block;width:32%;text-align:center;font-size:1.3rem;padding:10px 7px;height:123px;vertical-align:top}
+ul.mainmenu li a{color:#444;text-transform:capitalize;}
+ul.mainmenu li:hover{color:#97291e;background:#eceded;border-radius:10px;}
+ul.mainmenu li a span{clear:both;width:100%;font-family:inherit;position:relative;display:block;}
+ul.mainmenu li img{margin-bottom:7px;margin-right:10px;clear:both}
+.none{display:none}
+#chatWindow{padding-bottom:105px;}
+#refresh{height:36px;width:36px;position:absolute;left:15px;background-size:cover;opacity:0.6;top:8px;font-size:62%;font-family:ZurichBT-Roman;line-height:4px;}
+#refresh:hover{opacity:1;}
+.black{color:#000}
+.help_text{color:#004a80;font-family:ZurichBT-Roman;font-weight:500;margin-top:7px;text-align:center;}
+.suggestion{position:fixed;bottom:72px;padding:9px 0;text-align:center;border-top:1px solid #cccccc2e;background:#f9f9f9;z-index:999;display:block; width:415px; left:20px;}
+.suggestion a{margin:0px 7px 5px !important;text-transform:capitalize;border:0px !important;color:#777373 !important;box-shadow:-1px 1px 5px #ccc;padding:4px 15px !important;border-radius:15px !important;text-decoration:none !important;min-width:auto !important;font-size:small;font-family:ZurichBT-Roman !important;}
+.suggestion a:hover{color:#97291e !important}
+@media screen and (max-device-width:768px){
+	.chatbot header{width:100%;border-top-left-radius:0!important;border-top-right-radius:0!important;}
+	#botholder, #botiframe{bottom:0!important;height:100%!important}
+	#botholder, body.chat-open{position:fixed}
+	#bot_circle.open{top:0;left:calc(100% - 57px);z-index:10999;}
+	#botholder{width:auto;right:0!important;top:0!important;left:0!important;border-radius:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+	#botiframe{border:none!important;min-height:100%!important;z-index:999999999;overflow:hidden;width:100%!important}
+	#boat_msg{right:120px !important;bottom:25px !important;}
+	.from-them > div:before{width:28px;left:-33px;height:28px;}
+	/*.from-me > div, .from-them > div{font-size:1.3rem !important;margin:10px 30px 0 30px !important;}*/
+	.from-them > div.button{margin:0 10px !important; width:calc(100% - 20px) !important;}
+	.btn-pop{width:82% !important;}
+	.from-me > div:after{width:25px;right:-30px;top:2px;height:25px;}
+	.from-me > div{padding:7px 10px !important;}
+	.chatbot footer{border-radius:0 !important;}
+	.from-them > div{padding:5px 10px !important;}
+	#boat_msg:after{top:3px !important;right:-6px !important;}
+	.suggestion{width:100%; left:0;}
+}
+.chatbot .button{padding:0 !important;margin:0 40px !important;background:transparent !important;box-shadow:none !important;width:80% !important;}
+.from-them div.button:before{width:0;content:"";background:#fff;position:absolute;left:-57px;top:0;height:0;box-shadow:0 2px 3px #ccc;border-radius:50%;background-size:contain;}
+.animated{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;animation-duration:1s;}.animated.hinge{-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;animation-duration:2s;}@-webkit-keyframes fadeInUp{0%{opacity:0;-webkit-transform:translateY(20px);}
+100%{opacity:1;-webkit-transform:translateY(0);}
+}
+@-moz-keyframes fadeInUp{0%{opacity:0;-moz-transform:translateY(20px);}
+100%{opacity:1;-moz-transform:translateY(0);}
+}
+@keyframes fadeInUp{0%{opacity:0;transform:translateY(20px);}
+100%{opacity:1;transform:translateY(0);}
+}
+.fadeInUp{-webkit-animation-name:fadeInUp;-moz-animation-name:fadeInUp;animation-name:fadeInUp;}
+span.x-mobile{position:relative;width:100px;overflow:hidden;display:inline;}
+.btn-pop{display:block;width:88%;}
+.popover-content{font-size:12px;}
+.con-info{margin-top:2px;opacity:0.5;text-decoration:none}
+.con-info:hover{margin-top:2px;opacity:0.9}
+#chatSection{padding-bottom:5px;}
+.from-them a.btn-show{border:1px solid #635e5e;color:#635e5e;border-radius:5px;padding:7px 15px;margin-top:10px;display:inline-table;font-family:ZurichBT-Roman;text-decoration:none;margin-right:10px;min-width:45%;}
+.chatbot{color:#000;font-family:ZurichBT-Roman;font-size:1.8em;margin:0;padding:0}
+.chatbot .redborder{border:1px #f00 solid}#audorattach,#audorattach.active{top:20px}#refresh{top:16px}
+.chatbot .err-msg{color:#ef1005;display:none;font-family:ZurichBT-Roman;font-size:11px;top:0;left:60px;position:absolute; line-height:20px;}
+.boat_msg_bold{font-family: 'ZurichBT-Bold';}
+#boat_msg{background: #f1ebeb;padding: 8px 15px; box-shadow: 0 0 5px 1px #9e9e9e;border-radius: 4px; line-height: 18px; color: #555; width: 130px;text-align: center; font-size:13px;left: 125px;bottom: 55px;}
+#boat_msg:after{top: 52px ; background: #e0e0e0;    bottom: 51px;    left: -6px;}
+@media (max-width: 767px){
+	#boat_msg:after{top: 52px !important; right: auto !important; background: #f1f1f1; left: 148px;}
+	#boat_msg{background: #f1f1f1; right: 4px !important; bottom: 70px !important; padding: 8px 15px; font-size: 3.5vw; box-shadow: 0 0 5px 1px #808080; left: auto; border-radius: 4px; line-height: 18px; color: #333; min-width: 200px; z-index: 1000;}
+	#bot_circle{bottom: -1px;left: auto;right: -10px;background: url(/content/icici-prudential-life-insurance/chatbot/images/ligo-chat-updated-icon.svg) center no-repeat; height: 75px; z-index: 1000;}
+}
+.disabled{cursor:not-allowed;}
+@media (min-width: 1024px){
+#bot_circle{width: 100px;height: 250px;animation: float 2s ease-in-out infinite;}
+#bot_circle.open {animation: none;}
+#boat_msg{bottom: 60px;left: 140px;}
+@keyframes float {
+	0% {transform: translatey(0px);}
+	50% {transform: translatey(-10px);}
+	100% {transform: translatey(0px);}
+}
+}

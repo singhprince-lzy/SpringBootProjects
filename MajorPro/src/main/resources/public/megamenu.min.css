@@ -1,0 +1,244 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+body{background:#f3f3f3;font-family:"ZurichBT-Roman";color:#343434}
+a,a:hover{color:#343434;text-decoration:none}
+.ipru-overlay{position:fixed;top:105px;right:0;left:0;bottom:0;background:url(megamenu-images/overlay1.png) repeat 0 0 transparent;z-index:1;display:none}
+.ipru-overlay.active{display:block}
+.ipru-desktop{display:block}
+.ipru-desktop .btn-back{display:none}
+.ipru-nav-icon{background:url(megamenu-images/sprite.png) no-repeat 0 0 transparent;width:25px;height:25px;display:inline-block;position:absolute;left:-13px;top:-5px}
+.ipru-header{padding:8px 10px;background:#fff;height:54px;border-bottom:2px solid #f58220;position:relative}
+.ipru-header .ipru-cont{width:980px;margin:0 auto}
+.ipru-header .ipru-menu-btn{display:inline-block;vertical-align:top;position:absolute;background:transparent;padding:14px 15px;left:0;top:0;display:none}
+.ipru-header .ipru-menu-btn .ipru-line{height:3px;width:22px;background:#b02a30;display:block;margin-bottom:5px;transition:all .5s ease;position:relative}
+.ipru-header .ipru-menu-btn.active{background:#b02a30}
+.ipru-header .ipru-menu-btn.active .ipru-line{background:#fff}
+.ipru-header .ipru-menu-btn.active .ipru-line:nth-child(1){bottom:-11px;transform:rotate(-45deg);transition:all .5s ease}
+.ipru-header .ipru-menu-btn.active .ipru-line:nth-child(2){opacity:0;transition:all .5s ease}
+.ipru-header .ipru-menu-btn.active .ipru-line:nth-child(3){bottom:5px;transform:rotate(45deg);transition:all .5s ease}
+.ipru-header .ipru-logo{display:block}
+.ipru-btn,.ipru-btn:hover{border-radius:0;text-align:center;display:inline-block;font-size:12px;text-transform:uppercase;font-family:"ZurichBT-Bold";font-weight:800;padding:10px 48px;margin:10px auto 0;line-height:20px;cursor:pointer;box-shadow:none;border:0}
+.ipru-btn.ipru-btn-red,.ipru-btn.ipru-btn-red:hover,.ipru-btn:hover.ipru-btn-red,.ipru-btn:hover.ipru-btn-red:hover{background:#b02a30;color:#fff}
+.ipru-btn.ipru-btn-light,.ipru-btn.ipru-btn-light:hover,.ipru-btn:hover.ipru-btn-light,.ipru-btn:hover.ipru-btn-light:hover{background:transparent;color:#b02a30;border:1px solid #b02a30}
+.ipru-cm-not-in-page{position:absolute;left:-999999px;top:-999999px}
+.ipru-cm-line-break{display:block}
+.ipru-cm-text-center{text-align:center}
+.ipru-cm-no-case{text-transform:none}
+.js-active{display:block}
+.ipru-text-orange{font-size:10px;line-height:11px;color:#b02a30}
+.ipru-menu-wrap{background:#b02a30;position:relative;z-index:5}
+.ipru-menu-wrap .ipru-nav-item .ipru-nav-data{display:block;width:100%}
+.ipru-menu-wrap .ipru-nav-links{font-family:"ZurichBT-Roman";font-size:16px;line-height:16px;display:block;color:#004a80;text-shadow:none}
+.ipru-menu-wrap .ipru-nav-links:hover{color:#b02a30;background:#fff}
+.ipru-menu-wrap .ipru-nav-links .ipru-nav-icon{display:inline-block}
+.ipru-menu-wrap .ipru-nav-links .ipru-nav-text{display:inline-block;text-transform:inherit;text-shadow:none}
+.ipru-menu-wrap .ipru-nav-links .down-arrow{background:url(../../../content/dam/icicipru/all/chintamani_icons.png) no-repeat -8px -764px transparent;width:12px;height:8px;display:inline-block;position:relative;top:-2px;margin-left:0;left:auto}
+.ipru-menu-wrap .ipru-level-main .ipru-nav-data.ipru-typ-menu-list{border-bottom:4px solid #b02a30;background:#fff;-webkit-box-shadow:0 0 10px -2px #a3a3a3;-moz-box-shadow:0 0 10px -2px #a3a3a3;box-shadow:0 0 10px -2px #a3a3a3}
+.ipru-menu-wrap .ipru-level-main .ipru-nav-data.ipru-typ-menu-list .ipru-container{background:#f1f2e7;-webkit-box-shadow:inset -2px 0 7px -1px #999;-moz-box-shadow:inset -2px 0 7px -1px #999;box-shadow:inset -2px 0 7px -1px #999}
+.ipru-menu-wrap .ipru-level-main .ipru-nav-data.ipru-typ-desc{width:100%}
+.ipru-menu-wrap .ipru-level-main .ipru-nav-data.ipru-typ-desc .ipru-container{background:#fff;width:100%;box-shadow:none;padding:20px 25px}
+.ipru-menu-wrap .ipru-level-main .ipru-nav-data.ipru-typ-desc .ipru-container .ipru-data{padding-left:0}
+.ipru-menu-wrap .ipru-level-main .ipru-nav-data.ipru-typ-desc .ipru-container .ipru-data .ipru-list-item{float:left}
+.ipru-menu-wrap .ipru-level-main .ipru-nav-data.ipru-typ-desc .ipru-container .ipru-data .ipru-list-item .ipru-data-container{width:260px}
+.ipru-menu-wrap .ipru-level-main .ipru-nav-data.ipru-typ-desc .ipru-container .ipru-data .ipru-list-item .ipru-data-container .ipru-title{font-size:15px;line-height:16px;color:#b02a30;text-transform:none;font-family:"ZurichBT-Bold";margin-bottom:15px}
+.ipru-menu-wrap .ipru-level-main .ipru-nav-data.ipru-typ-desc .ipru-container .ipru-data .ipru-list-item .ipru-data-container .ipru-desc{font-size:12px;line-height:14px;color:#004a80;font-family:"ZurichBT-Roman";margin-bottom:20px}
+.ipru-menu-wrap .ipru-level-main .ipru-nav-data.ipru-typ-desc .ipru-container .ipru-data .ipru-list-item .ipru-data-container .ipru-btn{padding:8px 12px;margin-bottom:20px;border:1px solid #b02a30}
+.ipru-menu-wrap .ipru-level-main{width:100%;margin:0 auto;height:40px;position:relative;padding:0}
+.ipru-menu-wrap .ipru-level-main>.ipru-nav-item{float:left;padding:11px 25px}
+.ipru-menu-wrap .ipru-level-main>.ipru-nav-item .ipru-nav-links{text-transform:capitalize;color:#fff}
+.ipru-menu-wrap .ipru-level-main>.ipru-nav-item .ipru-nav-links:hover{background:0}
+.ipru-menu-wrap .ipru-level-main>.ipru-nav-item .ipru-nav-data{display:none;position:absolute;top:40px;left:0;right:0}
+.ipru-menu-wrap .ipru-level-main>.ipru-nav-item .ipru-nav-data .ipru-container{width:330px;height:450px;display:block}
+.ipru-menu-wrap .ipru-level-main>.ipru-nav-item.active{background:#f15a22}
+.ipru-menu-wrap .ipru-level-main>.ipru-nav-item.active>.ipru-nav-data{display:block}
+.ipru-menu-wrap .ipru-level-main>.ipru-nav-item.active>.ipru-nav-data .ipru-container{display:block;position:relative}
+.ipru-menu-wrap .ipru-level-main>.ipru-nav-item.active>.ipru-nav-data .ipru-container .disclaimer-text{font-size:10px;line-height:12px;color:#989898;position:absolute;bottom:6px;left:18px;right:18px;z-index:10}
+.ipru-menu-wrap .ipru-level-main>.ipru-nav-item.active .ipru-level-second{display:block;padding-left:0}
+.ipru-menu-wrap .ipru-level-main>.ipru-nav-item.active .ipru-level-second .ipru-nav-item.hov{background:url(megamenu-images/arrow-right.png) no-repeat 314px center #fff}
+.ipru-menu-wrap .ipru-level-main>.ipru-nav-item.active .ipru-level-second .ipru-nav-item.hov:first-child>.ipru-nav-links{color:#b02a30;font-family:"ZurichBT-Bold"}
+.ipru-menu-wrap .ipru-level-main>.ipru-nav-item.active .ipru-level-second .ipru-nav-item.hov:first-child>.ipru-nav-data{display:block}
+.ipru-menu-wrap .ipru-level-main>.ipru-nav-item.active .down-arrow{background-position:0 -57px}
+.ipru-menu-wrap .ipru-level-second{display:block}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item{display:block;padding:15px 30px 12px 20px}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item .ipru-nav-links{text-transform:uppercase;font-size:1.3rem;line-height:16px;position:relative;color:#004a80;display:inline-block}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item .ipru-nav-links .ipru-nav-text{margin-left:6px;margin-top:3px;vertical-align:top}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item .ipru-nav-links:hover{color:#b02a30;font-family:"ZurichBT-Bold"}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item .ipru-nav-data{display:none;position:absolute;top:0;left:330px;width:330px;height:450px}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item.active{background:url(../../../content/dam/icicipru/all/chintamani_icons.png) no-repeat 214px -895px #fff}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item.active .ipru-nav-links{color:#b02a30;font-family:"ZurichBT-Bold"}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item .ipru-img-wrap{display:inline-block}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item .ipru-img-wrap img,.ipru-menu-wrap .ipru-level-second>.ipru-nav-item.active .ipru-img-wrap img{display:inline-block}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item .ipru-img-wrap img.icon-nor{display:block}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item .ipru-img-wrap img.icon-hov{display:none}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item.active .ipru-img-wrap .icon-nor{display:none}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item.active .ipru-img-wrap .icon-hov{display:block}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item.active>.ipru-nav-data{display:block}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item.active>.ipru-nav-data.ipru-typ-desc{right:0;width:auto}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item.active>.ipru-nav-data.ipru-typ-desc .ipru-container{width:100%}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item.active .ipru-level-third{display:block;padding-left:0}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item.active .ipru-level-third .ipru-nav-item .ipru-nav-links{color:#004a80;font-family:"ZurichBT-Roman"}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item.active .ipru-level-third .ipru-nav-item .ipru-nav-links .ipru-nav-icon{display:none}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item.active .ipru-level-third .ipru-nav-item.active .ipru-nav-links{color:#b02a30;font-family:"ZurichBT-Bold"}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item.hov .ipru-nav-links .ipru-nav-icon.iProtect-smart{background-position:1px 3px}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item.hov .ipru-nav-links .ipru-nav-icon.fund-performance{background-position:0 -89px}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item.hov .ipru-nav-links .ipru-nav-icon.process-philosophy{background-position:0 -1777px}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item.hov .ipru-nav-links .ipru-nav-icon.india-story{background-position:0 -2942px}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item.hov .ipru-nav-links .ipru-nav-icon.understanding-insurance{background-position:0 -177px}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item.hov .ipru-nav-links .ipru-nav-icon.choose-service{background-position:0 -271px}
+.ipru-menu-wrap .ipru-level-second .ipru-level-third .ipru-nav-item .ipru-nav-links .ipru-nav-text{margin-left:0}
+.ipru-menu-wrap .ipru-level-third{display:block}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item{display:block}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-links{font-size:1.3rem;line-height:16px;text-transform:none;color:#004a80;padding:16px 20px 16px 30px}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-links .ipru-nav-text .ipru-text-orange{display:block}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data{display:none;position:absolute;top:0;left:330px;height:450px;width:450px;overflow:hidden}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data.ipru-type-desc{right:0;width:auto}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data.ipru-type-desc .ipru-container{width:100%}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection{padding:20px 35px;width:475px}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-logo img{margin-bottom:15px}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-val{display:block;font-size:12px;color:#444;margin-bottom:20px}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-notes{padding-left:0;margin-bottom:10px}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-notes .ipru-list-item{font-size:1.3rem;text-align:left;line-height:16px;font-family:"ZurichBT-Roman";margin-bottom:9px}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-notes .ipru-list-item a{color:#004a80}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-notes .ipru-list-item a:hover{text-decoration:underline}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-notes .ipru-list-item .ipru-icon{background:url(../../../content/dam/icicipru/all/chintamani_icons.png) no-repeat -95px -715px transparent;width:14px;height:14px;float:left;margin-top:1px}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-notes .ipru-list-item .ipru-item{margin-left:23px;display:block}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-btn-cont{margin-bottom:23px;text-align:left}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-btn-cont .ipru-btn{width:120px;padding:8px}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-btn-cont .ipru-btn.ipru-btn-red{border:1px solid #b02a30}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-other-links{display:block;padding-left:0;text-align:left}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-other-links .ipru-list-item{color:#b02a30;font-size:14px;line-height:16px;font-family:"ZurichBT-Roman";margin-right:25px;float:left}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-other-links .ipru-list-item .ipru-icon-dowload{width:25px;height:21px;background:url("../../../content/dam/icicipru/all/chintamani_icons.png") no-repeat -88px -542px transparent;display:inline-block}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-other-links .ipru-list-item .ipru-cm-line-break{display:inline-block;vertical-align:top;margin-top:3px}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-other-links .ipru-list-item .ipru-icon-know{width:27px;height:21px;background:url("../../../content/dam/icicipru/all/chintamani_icons.png") no-repeat -86px -635px transparent;display:inline-block}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-other-links .ipru-list-item .ipru-link{display:inline-block;vertical-align:top;margin-top:5px}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item.active{background:url(../../../content/dam/icicipru/all/chintamani_icons.png) no-repeat 214px -895px #fff}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item.active .ipru-nav-links{color:#b02a30;font-family:"ZurichBT-Bold"}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item.active>.ipru-nav-data{display:block}
+.tablet.landscape .mobile-structure{display:none}
+.mobile-screen{display:none}
+@media only screen and (max-width:991px){.ipru-btn{padding:10px 10px;font-size:12px;line-height:14px}
+.ipru-btn.ipru-btn-red{border:1px solid #b02a30}
+.ipru-header .ipru-cont{width:100%}
+.ipru-header .ipru-cont .ipru-menu-btn{display:block}
+.ipru-header .ipru-logo{padding-left:45px}
+.ipru-desktop{display:none}
+.ipru-desktop .btn-back{display:block}
+.mobile-structure .btn-back{font-size:12px;line-height:14px;color:#b02a30;padding:8px 0 7px 14px;margin-bottom:10px;text-transform:uppercase;display:block;background:url(../../../content/dam/icicipru/all/chintamani_icons.png) no-repeat -95px -960px transparent}
+.mobile-structure .mob-first-level{position:fixed;right:0;left:0;bottom:0;top:0;width:100%;overflow-y:scroll;padding-top:56px}
+.mobile-structure .mob-first-level{background:#b02a30;left:-100%;z-index:1000;transition:all .5s ease}
+.mobile-structure .mob-first-level .ipru-nav-links{width:100%;border-bottom:2px solid #f58220;padding:20px;font-size:14px;line-height:16px;color:#fff;display:block;text-transform:uppercase;background:url(../../../content/dam/icicipru/all/chintamani_icons.png) no-repeat 245px -470px transparent}
+.mobile-structure .mob-first-level .ipru-nav-links.no-content-link{background:0}
+.mobile-structure .mob-first-level .ipru-nav-links:hover{background-color:#f15a22}
+.mobile-structure .mob-first-level.active{left:0;transition:all .5s ease}
+.mobile-structure .mob-second-third-level .ipru-item-wrap{background:#fff;position:fixed;right:0;bottom:0;top:0;width:100%;overflow-y:scroll;left:100%;z-index:1000;padding:69px 15px 15px;transition:all .5s ease}
+.mobile-structure .mob-second-third-level .ipru-item-wrap .ipru-nav-links{display:inline-block;width:100%;position:relative;padding:20px 10px 5px}
+.mobile-structure .mob-second-third-level .ipru-item-wrap .ipru-nav-links .ipru-nav-icon{display:inline-block;left:0;top:14px}
+.mobile-structure .mob-second-third-level .ipru-item-wrap .ipru-img-wrap{display:inline-block}
+.mobile-structure .mob-second-third-level .ipru-item-wrap .ipru-img-wrap img,.mobile-structure .mob-second-third-level .ipru-item-wrap.active .ipru-img-wrap img{display:inline-block}
+.mobile-structure .mob-second-third-level .ipru-item-wrap .ipru-img-wrap img.icon-nor{display:block}
+.mobile-structure .mob-second-third-level .ipru-item-wrap .ipru-img-wrap img.icon-hov{display:none}
+.mobile-structure .mob-second-third-level .ipru-item-wrap.active .ipru-img-wrap .icon-nor{display:none}
+.mobile-structure .mob-second-third-level .ipru-item-wrap.active .ipru-img-wrap .icon-hov{display:block}
+.mobile-structure .mob-second-third-level .ipru-item-wrap .ipru-nav-links .ipru-nav-text{display:inline-block;font-size:12px;line-height:14px;color:#b02a30;text-transform:uppercase;font-family:"ZurichBT-Bold";padding-left:8px;vertical-align:top;margin-top:5px}
+.mobile-structure .mob-second-third-level .ipru-item-wrap .ipru-level-third{border-bottom:1px solid #e4e4e4;padding-bottom:12px}
+.mobile-structure .mob-second-third-level .ipru-item-wrap .ipru-level-third .ipru-nav-item .ipru-nav-links{padding:4px 0;margin-bottom:6px}
+.mobile-structure .mob-second-third-level .ipru-item-wrap .ipru-level-third .ipru-nav-item .ipru-nav-links .ipru-nav-text{padding-left:0;font-family:"ZurichBT-Roman";color:#004a80;text-transform:none}
+.mobile-structure .mob-second-third-level .ipru-item-wrap .ipru-level-third .ipru-nav-item .ipru-nav-links .ipru-nav-text .ipru-text-orange{display:block}
+.mobile-structure .mob-second-third-level .ipru-item-wrap.active{transition:all .5s ease;left:0}
+.mobile-structure .mob-data-cont .ipru-nav-data{background:#fff;position:fixed;right:0;bottom:0;top:0;width:100%;left:100%;z-index:1001;overflow-y:scroll;transition:all .5s ease;padding:69px 10px 15px}
+.mobile-structure .mob-data-cont .ipru-nav-data.active{transition:all .5s ease;left:0}
+.mobile-structure .mob-data-cont .ipru-nav-data .btn-back{margin-left:17px;margin-top:12px}
+.mobile-structure .mob-data-cont .ipru-container{padding:0 15px 60px}
+.mobile-structure .mob-data-cont .ipru-container .ipru-logo{display:block;margin-bottom:8px}
+.mobile-structure .mob-data-cont .ipru-container .ipru-val{display:block;margin-bottom:14px}
+.mobile-structure .mob-data-cont .ipru-container .ipru-list-item .ipru-data-container .ipru-title{font-size:15px;line-height:16px;color:#b02a30;text-transform:none;font-family:"ZurichBT-Bold";margin-bottom:15px}
+.mobile-structure .mob-data-cont .ipru-container .ipru-list-item .ipru-data-container .ipru-desc{font-size:12px;line-height:14px;color:#004a80;font-family:"ZurichBT-Roman";margin-bottom:20px}
+.mobile-structure .mob-data-cont .ipru-container .ipru-list-item .ipru-data-container .ipru-btn,.mobile-structure .mob-data-cont .ipru-container .ipru-list-item .ipru-data-container .ipru-btn:hover{padding:10px;line-height:14px}
+.mobile-structure .mob-data-cont .ipru-container .ipru-notes{padding-left:2px}
+.mobile-structure .mob-data-cont .ipru-container .ipru-notes .ipru-list-item{color:#004a80 !important;font-size:12px;line-height:14px;font-family:"ZurichBT-Roman";margin-bottom:12px}
+.mobile-structure .mob-data-cont .ipru-container .ipru-notes .ipru-list-item .ipru-icon{background:url("../../../content/dam/icicipru/all/chintamani_icons.png") no-repeat -95px -715px transparent;width:14px;height:14px;float:left}
+.mobile-structure .mob-data-cont .ipru-container .ipru-notes .ipru-list-item .ipru-item{margin-left:23px;display:block}
+.mobile-structure .mob-data-cont .ipru-container .ipru-other-links{display:inline-block;margin-top:20px}
+.mobile-structure .mob-data-cont .ipru-container .ipru-other-links .ipru-list-item{color:#b02a30;font-size:10px;line-height:11px;font-family:"ZurichBT-Roman";margin-right:25px;float:left}
+.mobile-structure .mob-data-cont .ipru-container .ipru-other-links .ipru-list-item .ipru-icon-dowload{width:25px;height:21px;background:url(../../../content/dam/icicipru/all/chintamani_icons.png) no-repeat -88px -542px transparent;display:inline-block}
+.mobile-structure .mob-data-cont .ipru-container .ipru-other-links .ipru-list-item .ipru-cm-line-break{display:inline-block;vertical-align:top;margin-top:5px}
+.mobile-structure .mob-data-cont .ipru-container .ipru-other-links .ipru-list-item .ipru-icon-know{width:27px;height:21px;background:url(../../../content/dam/icicipru/all/chintamani_icons.png) no-repeat -86px -635px transparent;display:inline-block}
+.mobile-structure .mob-data-cont .ipru-container .ipru-other-links .ipru-list-item .ipru-link{display:inline-block}
+.mobile-structure .mob-data-cont .ipru-container .disclaimer-text{font-size:10px;line-height:12px;color:#989898;position:relative;left:0;right:18px;z-index:10}
+.mobile-structure .mob-data-cont .ipru-container.ipru-data-selection .ipru-btn-cont .ipru-btn{width:120px;padding:10px 10px;line-height:14px}
+.mobile-screen{display:block}
+.ipru-header{z-index:4}
+.ipru-overlay.active{display:none !important}
+}
+@media only screen and (max-width:1024px){.ipru-menu-wrap .ipru-level-main>.ipru-nav-item{float:left;padding:11px 16px}
+.mobile-screen{display:none}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection{padding:20px 12px;width:280px}
+}
+@media only screen and (min-width:700px) and (max-width:1280px){.mobile-structure .mob-second-third-level .ipru-item-wrap,.mobile-structure .mob-data-cont .ipru-nav-data{left:-100%}
+.mobile-structure .mob-first-level,.mobile-structure .mob-data-cont .ipru-nav-data,.mobile-structure .mob-second-third-level .ipru-item-wrap{width:33%}
+}
+@media(min-width:768px) and (max-width:992px){.ipru-menu-wrap .ipru-level-second>.ipru-nav-item .ipru-nav-links{font-size:1.25em}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item{padding:15px 15px 7px 15px}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-links{font-size:1.25em;padding:15px}
+.ipru-menu-wrap .ipru-level-main>.ipru-nav-item .ipru-nav-data .ipru-container{width:270px;height:375px}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item.active{background-position:255px center}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item .ipru-nav-data{left:270px;width:270px;height:375px}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item.active{background-position:255px center}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item .ipru-nav-links .ipru-nav-text{margin-left:2px;margin-top:5px}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-notes .ipru-list-item{font-size:1.2em}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-btn-cont .ipru-btn{width:120px}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection{padding:0 10px}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-notes .ipru-list-item{font-size:1.2em;margin-bottom:8px}
+.navigation-fourth-plans a.ipru-logo span{transform:scale(.65)}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-btn-cont{margin-bottom:10px;text-align:center}
+.navigation-fourth-plans>div{position:relative}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-other-links .ipru-list-item{font-size:1.25em}
+.ipru-menu-wrap .ipru-level-main>.ipru-nav-item.active>.ipru-nav-data .ipru-container .disclaimer-text{display:none}
+.ipru-menu-wrap .ipru-level-third>.ipru-nav-item .ipru-nav-data .ipru-data-selection .ipru-notes li:nth-of-type(1n+5){display:none}
+.ipru-menu-wrap .ipru-level-second>.ipru-nav-item:nth-of-type(5) .ipru-nav-data .ipru-data-selection .ipru-btn-cont .ipru-btn{width:105px;line-height:15px}
+.navigation-fourth-library.section{padding-top:15px}
+.ipru-menu-wrap .ipru-nav-item .ipru-nav-data{width:113%}
+ul.footer-list.social-list li a span{display:none}
+}
+@media(min-width:993px) and (max-width:1280px){.mobile-structure{display:none}
+}
+@font-face{font-family:'ZurichBT-Roman';font-display:swap;src:url('megamenu-fonts/ZurichBT-Roman.eot');src:url('megamenu-fonts/ZurichBT-Roman.eot?#iefix') format('embedded-opentype'),url('megamenu-fonts/ZurichBT-Roman.woff2') format('woff2'),url('megamenu-fonts/ZurichBT-Roman.woff') format('woff'),url('megamenu-fonts/ZurichBT-Roman.ttf') format('truetype'),url('megamenu-fonts/ZurichBT-Roman.svg#ZurichBT-Roman') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'ZurichBT-Bold';font-display:swap;src:url('megamenu-fonts/ZurichBT-Bold.eot');src:url('megamenu-fonts/ZurichBT-Bold.eot?#iefix') format('embedded-opentype'),url('megamenu-fonts/ZurichBT-Bold.woff2') format('woff2'),url('megamenu-fonts/ZurichBT-Bold.woff') format('woff'),url('megamenu-fonts/ZurichBT-Bold.ttf') format('truetype'),url('megamenu-fonts/ZurichBT-Bold.svg#ZurichBT-Bold') format('svg');font-weight:bold;font-style:normal}
+@font-face{font-family:'FontAwesome';font-display:swap;src:url('megamenu-fonts/fontawesome-webfont.eot?v=4.5.0');src:url('megamenu-fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'),url('megamenu-fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'),url('megamenu-fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'),url('megamenu-fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'),url('megamenu-fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.fa-rupee:before,.fa-inr:before{content:"\f156"}
+#colorbox,#cboxOverlay,#cboxWrapper{position:absolute;top:0;left:0;z-index:9999;overflow:hidden}
+#cboxWrapper{max-width:none}
+#cboxOverlay{position:fixed;width:100%;height:100%}
+#cboxMiddleLeft,#cboxBottomLeft{clear:left}
+#cboxContent{position:relative}
+#cboxLoadedContent{overflow:auto;-webkit-overflow-scrolling:touch}
+#cboxTitle{margin:0}
+#cboxLoadingOverlay,#cboxLoadingGraphic{position:absolute;top:0;left:0;width:100%;height:100%}
+#cboxPrevious,#cboxNext,#cboxClose,#cboxSlideshow{cursor:pointer}
+.cboxPhoto{float:left;margin:auto;border:0;display:block;max-width:none;-ms-interpolation-mode:bicubic}
+.cboxIframe{width:100%;height:100%;display:block;border:0;padding:0;margin:0}
+#colorbox,#cboxContent,#cboxLoadedContent{box-sizing:content-box;-moz-box-sizing:content-box;-webkit-box-sizing:content-box}
+#cboxOverlay{background:url(megamenu-images/overlay.png) repeat 0 0;opacity:.9;filter:alpha(opacity = 90)}
+#colorbox{outline:0}
+#cboxContent{background:#fff;overflow:hidden}
+.cboxIframe{background:#fff}
+#cboxError{padding:50px;border:1px solid #ccc}
+#cboxLoadedContent{margin-bottom:0}
+#cboxTitle{position:absolute;bottom:4px;left:0;text-align:center;width:100%;color:#949494}
+#cboxCurrent{position:absolute;bottom:4px;left:58px;color:#949494}
+#cboxPrevious,#cboxNext,#cboxSlideshow,#cboxClose{border:0;padding:0;margin:0;overflow:visible;width:auto;background:0}
+#cboxPrevious:active,#cboxNext:active,#cboxSlideshow:active,#cboxClose:active{outline:0}
+#cboxSlideshow{position:absolute;bottom:4px;right:30px;color:#0092ef}
+.cboxIE #cboxTopLeft,.cboxIE #cboxTopCenter,.cboxIE #cboxTopRight,.cboxIE #cboxBottomLeft,.cboxIE #cboxBottomCenter,.cboxIE #cboxBottomRight,.cboxIE #cboxMiddleLeft,.cboxIE #cboxMiddleRight{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+:focus{outline:0}
+.btn-red,.btn-red:hover{background:#b02a30;color:#fff}
+.cm-not-in-page{position:absolute;left:-999999px;top:-999999px}
+.cm-line-break{display:block}
+.cm-text-center{text-align:center}
+.nav-items{font-family:"ZurichBT-Roman";font-size:14px;display:block;color:#004a80}
